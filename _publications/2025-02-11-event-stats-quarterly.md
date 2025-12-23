@@ -1,5 +1,5 @@
 ---
-title: "Patient Safety Event Data Quarterly Publication"
+title: "Patient Safety Event Data: Quarterly Publication"
 collection: publications
 category: conferences
 permalink: /publication/2025-02-11-event-stats-quarterly

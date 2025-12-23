@@ -13,12 +13,12 @@ Education
 ======
 **MSc Psychological Research Methods with Data Science**, University of Sheffield, *Distinction*  
 
-**BSc Psychology (Honours)**, St. Lawrence University, Cum Laude
+**BSc Psychology (Honours)**, St. Lawrence University, *Cum Laude*
 
 Professional experience
 ====== 
 <details markdown="1">
-<summary><b>Analyst - Patient Safety Team,</b> London, NHS England, December 2022– present</summary>
+<summary><b>Analyst - Patient Safety Team,</b> London, NHS England (December 2022– present)</summary>
   * Led national statistical analysis of NHS patient safety incident data, informing government and lay audiences via key publications such as the Patient Safety Event Data Quarterly Publication and the forthcoming Patient Safety Event Data Transition Report. 
   * Developed reproducible analytical pipelines to standardise data extraction across national databases, reducing delivery timelines from 90 days to 30 days. 
   * Validated and delivered over 80 data extracts, in response to NHS England’s statutory review duties, which produced new medical guidelines and informed the public. 
@@ -32,14 +32,14 @@ Professional experience
 </details>
 <p>
 <details markdown="1">
-<summary><b>Analytical Officer - Cancer Programme,</b> London, NHS England, June 2022 - December 2022</summary> 
+<summary><b>Analytical Officer - Cancer Programme,</b> London, NHS England (June 2022 - December 2022)</summary> 
   * Generated rapid, high-profile analysis and reporting for programme directors and deputies which supported data-driven decision making. 
   * Produced and reviewed internal publications, ensuring accuracy and consistency for wider use by NHS organisations. 
   * Standardised KPI reports in R which reduced manual workload and enhanced productivity. 
 </details>
 <p>
 <details markdown="1">
-<summary><b>Data Analyst - Advanced Analytics,</b> Colchester, East Suffolk and North Essex NHS Foundation Trust, October 2021 – June 2022</summary> 
+<summary><b>Data Analyst - Advanced Analytics,</b> Colchester, East Suffolk and North Essex NHS Foundation Trust (October 2021 – June 2022)</summary> 
   * Analysed, modelled, and interpreted patient-level datasets, resulting in actionable insights that informed patient care and operational planning. 
   * Designed and streamlined on-demand business intelligence reports which aligned with organisational priorities. 
   * Translated complex statistical findings to non-technical stakeholders, providing clear and accurate interpretation for decision-making. 
@@ -47,7 +47,7 @@ Professional experience
 </details>
 <p>
 <details markdown="1">
-<summary><b>Technician Data Assistant (Summer Placement),</b> Sheffield National Technician Development Centre (NTDC), July 2021 – August 2021</summary> 
+<summary><b>Technician Data Assistant (Summer Placement),</b> Sheffield National Technician Development Centre (NTDC) (July 2021 – August 2021)</summary> 
  * Standardised survey data from 10 universities, creating a unified dataset for strategic analysis. 
  * Identified sector-wide and population-specific trends via thematic analysis which produced targeted insights for different participant groups. 
  * Assessed historical data on course attendance and popularity which generated actionable insights for training planning. 
@@ -56,7 +56,7 @@ Professional experience
 </details>
 <p>
 <details markdown="1">
-<summary><b>Research Assistant & Data Entry Clerk (Psychiatry),</b> Worcester (USA), University of Massachusetts Medical School, July 2019 – June 2020</summary> 
+<summary><b>Research Assistant & Data Entry Clerk (Psychiatry),</b> Worcester (USA), University of Massachusetts Medical School (July 2019 – June 2020)</summary> 
  * Conducted descriptive statistical analysis of clinical assessment data and created presentations which informed researchers, clinicians, and officials at the Department of Public Health of Massachusetts. 
  *  Recorded and managed clinical assessment data in SPSS, supporting evaluation activities, presentations, and academic publications. 
  * Collaborated with clinical teams and government agencies to verify patient eligibility which ensured programme compliance with government guidelines.
