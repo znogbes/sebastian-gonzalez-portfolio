@@ -3,10 +3,10 @@
    ========================================================================== */
 
 /* Color codes used for the theme */
-$primary-color              : #00adb5;
+$primary-color              : #00adb5; // main accent colour (vs text colour)
 $dark-primary-color         : mix(#000, $primary-color, 40%);
-$darker-primary-color       : mix(#000, $primary-color, 60%);
-$light-primary-color        : mix(#000, $primary-color, 50%);
+$darker-primary-color       : mix(#000, $primary-color, 80%); // text colour in code blocks `` 
+$light-primary-color        : mix(#000, $primary-color, 25%); // text colour for tags, footer, previous and after buttons
 
 $background                 : #252a34;
 $background-light           : mix(#fff, $background, 20%);

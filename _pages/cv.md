@@ -47,7 +47,7 @@ Professional experience
 </details>
 <p>
 <details markdown="1">
-<summary><b>Technician Data Assistant (Summer Placement),</b> Sheffield National Technician Development Centre (NTDC) (July 2021 – August 2021)</summary> 
+<summary><b>Technician Data Assistant (Summer Placement),</b> Sheffield, National Technician Development Centre (NTDC) (July 2021 – August 2021)</summary> 
  * Standardised survey data from 10 universities, creating a unified dataset for strategic analysis. 
  * Identified sector-wide and population-specific trends via thematic analysis which produced targeted insights for different participant groups. 
  * Assessed historical data on course attendance and popularity which generated actionable insights for training planning. 
