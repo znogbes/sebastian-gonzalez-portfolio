@@ -17,7 +17,7 @@ I'm experienced in collaborative, [Git-based workflows](https://github.com/nhs-e
 
 Acknowledgements
 ------
-As a user and supporter of open source software, I'm developing my own portfolio website using freely available source code.
+As a user and supporter of open source software, I'm developing my personal website using freely available source code.
 <details markdown="1">
 <summary>Learn more</summary>
 <br>
