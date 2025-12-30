@@ -13,9 +13,10 @@ main:
 
   - title: "Public work"
     url: /publications/
-
-  - title: "Blog"
-    url: /year-archive/
+  
+  # working on draft, will bring back
+  # - title: "Blog"
+  #   url: /year-archive/
   
   - title: "CV"
     url: /cv/

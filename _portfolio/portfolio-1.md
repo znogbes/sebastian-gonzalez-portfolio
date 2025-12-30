@@ -8,7 +8,7 @@ collection: portfolio
 
 This project walks through the **various stages of analysis** involved in tackling a **classification problem**, from exploratory data analysis (EDA) to model selection. The outcome of this analytical pipeline is a model that predicts whether a person will pay a loan back or not.
 
-The Data set used here was obtained from the *Predicting Loan Payback* [Kaggle competition](https://www.kaggle.com/competitions/playground-series-s5e11/rules#7.-data-access-and-use). The data are used in accordance with the Apache 2.0 license and competition rules. The specific environment used for the entire project is available [here](https://github.com/znogbes/kaggle-predicting-loan-payback/blob/main/environment.yml).
+The Data used below was obtained from the *Predicting Loan Payback* [Kaggle competition](https://www.kaggle.com/competitions/playground-series-s5e11/rules#7.-data-access-and-use). The data are used in accordance with the **Apache 2.0** license and competition rules. The **specific environment** used for the entire project is available [here](https://github.com/znogbes/kaggle-predicting-loan-payback/blob/main/environment.yml).
 
 **This page covers EDA and data preparation for modelling.** The packages used for this are shown below.
 
@@ -154,7 +154,7 @@ df.style.format(precision=1).relabel_index(['Payers', 'Non-payers'], axis=0)
 
 ### **Numeric features**
 
-Although synthetic, this data set has a mix of numeric and categorical variables, just like real-life data sets. We'll start exploring numeric features of the data by checking their distribution with the `describe()` method. Note that before we do that, we drop the `id` variable as it has no utility for analysis because it's a unique row identifier. Similarly, we exclude the outcome variable, as this step is concerned with features only.
+Although synthetic, this data set has a mix of numeric and categorical variables, just like real-life data sets. We'll start exploring numeric features of the data by checking their distribution with the `describe()` method. Note that before we do that, we drop the `id` variable, as it has no utility for analysis because it's a unique row identifier. Similarly, we exclude the outcome variable, as this step is concerned with features only.
 
 
 ```python
@@ -456,7 +456,7 @@ def plot_categorical_cols(freq_table, col_name):
 </details>
 
 
-We can then loop through every categorical variable and use both functions. You can see what the output looks like for `gender` and click on the arrow to see the results for the rest of the variables. 
+We can then loop through every categorical variable and use both functions. You can see what the output looks like for `employment_status` and click on the arrow to see the results for the rest of the variables. 
 
 ```python
 # loop over to see freq tables and plots
@@ -470,8 +470,28 @@ for col in categorical_cols:
     plot_categorical_cols(freq_table, col)
 ```
 
+   
+    Breakdown of outcome group by employment_status
     
-    Breakdown of outcome group by gender
+    outcome employment_status  Non-Payers  Payers  perc_payers  perc_non_payers
+    0                Employed       47703  402942         84.9             39.9
+    2           Self-employed        5329   47151          9.9              4.5
+    1                 Retired          46   16407          3.5              0.0
+    4              Unemployed       57635    4850          1.0             48.2
+    3                 Student        8787    3144          0.7              7.4
+    
+
+
+    
+![png](eda-and-pre-ml_files/eda-and-pre-ml_17_7.png)
+
+    
+
+<details markdown="1">
+<summary><b>Show remaining categorical variables</b></summary>
+
+
+Breakdown of outcome group by gender
     
     outcome  gender  Non-Payers  Payers  perc_payers  perc_non_payers
     0        Female       60712  245463         51.7             50.8
@@ -479,13 +499,8 @@ for col in categorical_cols:
     2         Other         763    2965          0.6              0.6
     
 
-
     
 ![png](eda-and-pre-ml_files/eda-and-pre-ml_17_1.png)
-    
-
-<details markdown="1">
-<summary><b>Show remaining categorical variables</b></summary>
 
     
     Breakdown of outcome group by marital_status
@@ -517,23 +532,6 @@ for col in categorical_cols:
 
     
 ![png](eda-and-pre-ml_files/eda-and-pre-ml_17_5.png)
-    
-
-
-    
-    Breakdown of outcome group by employment_status
-    
-    outcome employment_status  Non-Payers  Payers  perc_payers  perc_non_payers
-    0                Employed       47703  402942         84.9             39.9
-    2           Self-employed        5329   47151          9.9              4.5
-    1                 Retired          46   16407          3.5              0.0
-    4              Unemployed       57635    4850          1.0             48.2
-    3                 Student        8787    3144          0.7              7.4
-    
-
-
-    
-![png](eda-and-pre-ml_files/eda-and-pre-ml_17_7.png)
     
 
 
@@ -607,7 +605,7 @@ The plots in the previous sections offer us an idea of which features might be s
 
 In the case of numeric features, we can see - by looking at the medians in the box plots - that **non-payers have higher ratios of debt-to-income** and **lower credit scores** than payers. This probably reflects high borrowing behaviour and past tendencies of late payments. Interestingly, annual income, loan amounts and interest rates seemed similar in both groups.  
 
-In the categorical feature exploration, the most noticeable insight was the clear differences in employment status. About **85% of payers were employed** vs only 40% of non-payers. Almost half **(48.2%) of non-payers were unemployed** vs just 1% in the payer group. There also seemed to be differences between groups in the grade-subgrade variables. Specifically, there were higher proportions of payers in the B and C grades, but lower in the D and E grades. 
+In the categorical feature exploration, the most noticeable insight was the clear differences in employment status. About **85% of payers were employed** vs only 40% of non-payers. Almost half **(48.2%) of non-payers were unemployed** vs just 1% in the payer group. There also seemed to be differences between groups in the grade-subgrade variable. Specifically, there were higher proportions of payers in the B and C grades, but lower in the D and E grades. 
 
 These insights will need to be confirmed by any modelling we do, but the idea of EDA is to get a lay of the land. For instance, the differences seen in grade-subgrade might fade or not be significant due to the many possible values for that variable.  
 
@@ -669,7 +667,7 @@ data_encoded['grade_subgrade'] = data_encoded[
 
 ### Correlation matrix
 
-Now that the `grade_dubgrade` variable reflects numeric, ordinal scale, we can understand better what it represents by making a correlation matrix with all the other numeric variables. The more instense the colour in the matrix, the stronger the correlation is to 1 or -1. We can see that the subgrades correlate strongly with credit scores: the lower the credit score, the higher the subgrade. Additionally, it seems that high the subgrade values are midly correlated with higher interest rates.
+Now that the `grade_subgrade` variable reflects a numeric, ordinal scale, we can understand better what it represents by making a correlation matrix with all the other numeric variables. The more instense the colour in the matrix, the stronger the correlation is to 1 (red) or -1 (blue). We can see that the subgrades correlate strongly with credit scores: the lower the credit score, the higher the subgrade. Additionally, it seems that high subgrade values are mildly correlated with higher interest rates.
 
 
 ```python
@@ -697,7 +695,7 @@ ax.set_title("Correlation Matrix of Numeric Features")
 
 
 ### One-hot encoding
-The remaining categorical features can be processed via one-hot encoding. This means that we sill split the original column into as many separate columns as there are unique values. For example, the recorded values for the `gender` variable are: female, male, and other. Hence, we will have 3 new columns: `gender_female`, `gender_male`, and `gender_other`. Each of these new variables will be coded TRUE or FALSE according to the original value in `gender`, so every row can only have one TRUE value across the 3 new derived variables. We repeat this process for every categorical variable. You can use the `get_dummies()` method inside a function to one-hot encode all eligible features in one go, as shown below.
+The remaining categorical features can be processed via one-hot encoding. This means that we will split the original column into as many separate columns as there are unique values. For example, the recorded values for the `gender` variable are: female, male, and other. Hence, we will have 3 new columns: `gender_female`, `gender_male`, and `gender_other`. Each of these new variables will be coded TRUE or FALSE according to the original value in `gender`, so every row can only have one TRUE value across the 3 new derived variables. We repeat this process for every categorical variable. You can use the `get_dummies()` method inside a function to one-hot encode all eligible features in one go, as shown below.
 
 
 ```python
@@ -739,5 +737,3 @@ data_encoded.to_csv('./data/data_processed.csv', index=False)
     
 
 **Next, I will compare different ML methods** and do a bit of model evaluation to propose an optimal model for predicting whether someone will pay a loan back.
-
-##
