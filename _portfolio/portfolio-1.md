@@ -1,6 +1,6 @@
 ---
 title: "Machine learning: Exploratory data analysis and pre-processing"
-excerpt: "A demonstration of essential preparation steps for using machine learning"
+excerpt: "A demonstration of essential preparation steps before using machine learning methods to predict loan payback. <br/><br/><img src='portfolio-1/eda-and-pre-ml_files/eda-and-pre-ml_13_0.png' width='650' height='650'>"
 collection: portfolio
 ---
 
