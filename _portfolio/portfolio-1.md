@@ -743,4 +743,4 @@ print(data_encoded.columns.to_list())
 data_encoded.to_csv('./data/data_processed.csv', index=False)
 ```
 
-**Next, I will compare different ML methods** and do a bit of model evaluation to propose an optimal model for predicting whether someone will pay a loan back.
+**Next, I will fit a logsitic regression** and do a bit of model evaluation to obtain baseline measures that can later be compared against other ML methods.
