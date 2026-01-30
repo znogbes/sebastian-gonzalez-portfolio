@@ -20,6 +20,9 @@ This quarterly report provides **national statistics** on the number of patient 
 
 This report is an example of a **fully automated data pipeline** (i.e., from data extraction to production) to handle large volumes of data on a regular basis. The publication uses data from over **800,000 events** and **18,000+ healthcare organisations** in England. This report is produced using `R` and `quarto`, and the code is version-controlled using `Git`. Data visualisations were generated using `ggplot`.
 
-Latest issue: [Quarter 2 2025/26 (July, August, September 2025)](https://www.england.nhs.uk/statistics/statistical-work-areas/patient-safety-data/2025-26/quarter-2-2025-26-july-august-september-2025/)
+**Latest issue:** [Quarter 2 2025/26 (July, August, September 2025)](https://www.england.nhs.uk/statistics/statistical-work-areas/patient-safety-data/2025-26/quarter-2-2025-26-july-august-september-2025/)
 
-GitHub repo: *forthcoming*
+**GitHub repo:** Forthcoming.
+
+**Sample plot:** Incident recording rates (per 1,000 bed days) versus total bed days in the quarter, per NHS trust.
+![png](/images/patient_safety_incidents_2025_26_Q2_figure_4-1024x625.png)

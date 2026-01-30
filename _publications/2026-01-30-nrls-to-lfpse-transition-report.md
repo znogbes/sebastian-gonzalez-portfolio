@@ -21,6 +21,9 @@ This report analyses over **10 million records** from the national platforms use
 
 This was a project I delivered from conception to final publication in my role as data analyst in the [Patient Safety Analysis Team](https://github.com/nhs-england-patient-safety) at NHS England. The data pipeline behind this publication is fully automated and its code is version-controlled using `Git`. The report was produced using `R` and `quarto`. Data visualisations were generated using `ggplot`.
 
-[Click here](https://www.england.nhs.uk/statistics/statistical-work-areas/patient-safety-data/2024-25/nrls-to-lfpse-transition-report/) to see this publication.
+[Click here](https://www.england.nhs.uk/statistics/statistical-work-areas/patient-safety-data/2024-25/nrls-to-lfpse-transition-report/) to read this publication.
 
-GitHub repo: *forthcoming*
+**GitHub repo:** Forthcoming.
+
+**Sample plot:** Total patient safety incidents recorded per month in NRLS and LFPSE
+![png](/images/nrls_lfpse_monthly_reporting_plot.png)
