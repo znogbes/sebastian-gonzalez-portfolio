@@ -25,4 +25,4 @@ This report is an example of a **fully automated data pipeline** (i.e., from dat
 **GitHub repo:** Forthcoming.
 
 **Sample plot:** Incident recording rates (per 1,000 bed days) versus total bed days in the quarter, per NHS trust.
-![png](../images/patient_safety_incidents_2025_26_Q2_figure_4-1024x625.png)
+<img src="/sebastian-gonzalez-portfolio/images/patient_safety_incidents_2025_26_Q2_figure_4-1024x625.png" alt="IMAGE">
