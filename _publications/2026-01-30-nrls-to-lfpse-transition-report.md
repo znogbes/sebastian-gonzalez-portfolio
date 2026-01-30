@@ -26,4 +26,4 @@ This was a project I delivered from conception to final publication in my role a
 **GitHub repo:** Forthcoming.
 
 **Sample plot:** Total patient safety incidents recorded per month in NRLS and LFPSE
-![png](nrls_lfpse_monthly_reporting_plot.png)
+![png](publications/nrls_lfpse_monthly_reporting_plot.png)
