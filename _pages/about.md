@@ -13,7 +13,7 @@ Welcome to my data science portfolio! I'm Sebastian and I currently work in the 
 
 I'm a graduate of the [University of Sheffield](https://sheffield.ac.uk/), where I earned an MSc in Psychological Research Methods with Data Science. I've extended my training in operational research and data science via the Health Service Modelling Associates [(HSMA) Programme](https://hsma.co.uk), delivered by the [NIHR ARC South West Peninsula (PenARC)](https://arc-swp.nihr.ac.uk/about-penarc/).
 
-I'm experienced in collaborative, [Git-based workflows](https://github.com/nhs-england-patient-safety) and translating complex data into actionable insights across clinical, operational, and policy environments. My technical stack includes Python and R, with strong knowledge of automation, data pipelines and advanced analytics.
+I'm experienced in collaborative, [Git-based workflows](https://github.com/nhs-england-patient-safety) and translating complex data into actionable insights across clinical, operational, and policy environments. My technical stack includes Python, R, and SQL, with strong knowledge of automation, data pipelines and advanced analytics.
 
 Acknowledgements
 ------

@@ -19,7 +19,7 @@ tags:
 
 This report analyses over **10 million records** from the national platforms used to record patient safety events in England: the *National Reporting Learning System (NRLS)* and the *Learn from Patient Safety Events (LFPSE)*. In addition to **closing a 3-year publication gap**, this report uses data from across **+11,700 healthcare organisations** to uncover trends in patient safety incident recording. 
 
-This was a project I delivered from conception to final publication in my role as data analyst in the [Patient Safety Analysis Team](https://github.com/nhs-england-patient-safety) at NHS England. The data pipeline behind this publication is fully automated and its code is version-controlled using `Git`. The report was produced using `R` and `quarto`. Data visualisations were generated using `ggplot`.
+This was a project I delivered from conception to final publication in my role as Senior Information Analyst for [patient safety](https://github.com/nhs-england-patient-safety) at NHS England. The data pipeline behind this publication is fully automated and its code is version-controlled using `Git`. The report was produced using `R` and `quarto`. Data visualisations were generated using `ggplot`.
 
 [Click here](https://www.england.nhs.uk/statistics/statistical-work-areas/patient-safety-data/2024-25/nrls-to-lfpse-transition-report/) to read this publication.
 
