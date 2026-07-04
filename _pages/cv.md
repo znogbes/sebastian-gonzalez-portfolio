@@ -15,54 +15,52 @@ Education
 
 **BSc Psychology (Honours)**, St. Lawrence University, *Cum Laude*
 
-Professional experience
+Professional career
 ====== 
 <details markdown="1">
-<summary><b>Analyst - Patient Safety Team,</b> NHS England, London (December 2022– present)</summary>
-  * Led national statistical analysis of NHS patient safety incident data, informing government and lay audiences via key publications such as the [*Patient Safety Event Data Quarterly Publication*](https://www.england.nhs.uk/statistics/statistical-work-areas/patient-safety-data/2025-26/quarter-2-2025-26-july-august-september-2025/) and the forthcoming *Patient Safety Event Data Transition Report*. 
-  * Developed reproducible analytical pipelines to standardise data extraction across national databases, reducing delivery timelines from 90 days to 30 days. 
-  * Validated and delivered over 80 data extracts, in response to NHS England’s statutory review duties, which produced new medical guidelines and informed the public. 
-  * Upgraded extraction of administrative data for 10,000+ healthcare organisations across England, using the [NHS Organisation Data Service (ODS) API](https://digital.nhs.uk/developer/api-catalogue/organisation-data-service-fhir), which ensured data accuracy. 
-  * Mobilised [GitHub based workflows](https://github.com/nhs-england-patient-safety), enforcing coding standards and conducting [peer reviews](https://github.com/znogbes) through more than 80 pull requests. 
-  * Secured data reliability for national reporting by identifying and resolving issues with data quality team. 
-  * Orchestrated design and implementation of a Tableau dashboard which monitored medication safety indicators and supported the Medicines Safety Improvement Programme. 
-  * Applied statistical process control (SPC) methods and developed interactive visualisations which improved analysis quality. 
+<summary><b>Senior Information Analyst,</b> <i>Patient Safety Team</i>, NHS England, London (December 2022– present)</summary>
+  * Designed scalable, reproducible analytical pipelines that reduced delivery timelines from 90 days to 30 days and standardised data extraction across national databases.
+  * Built and maintained reusable API driven data ingestion pipelines (via [NHS ODS](https://digital.nhs.uk/developer/api-catalogue/organisation-data-service-fhir)), ensuring accurate data integration from 10,000+ healthcare organisations across England.
+  * Deployed and owned a production-grade Tableau dashboard for national medication safety monitoring, enabling self-service insights across NHS organisations (+600 views) and data driven insights for official quality improvement reports.
+  * Created statistical monitoring frameworks to detect significant deviations in safety indicators, applying statistical process control limits and hypothesis testing to distinguish signal from noise.
+  * Validated and delivered over 100 curated, analytics-ready data extracts in response to NHS England’s statutory review duties, supporting development of medical guidelines and public-facing reporting.
+  * Mobilised [GitHub based workflows](https://github.com/nhs-england-patient-safety) and Azure DevOps based workflows, enforcing coding standards and process documentation.
+  * Improved team adherence to good coding practices by mentoring team members through peer reviews in more than [100 pull requests](https://github.com/znogbes) on GitHub.
+  * Created and managed data collection procedures to enable the [Martha’s Rule Safety Improvement Programme](https://www.england.nhs.uk/patient-safety/marthas-rule/) to analyse submissions from 235 hospital sites in England.
   * Automated reporting for the [Martha’s Rule Safety Improvement Programme](https://www.england.nhs.uk/patient-safety/marthas-rule/), reducing turnaround times from 3 weeks to 2 hours. 
-  * Conducted ad-hoc analysis of hospital activity data which sped up policy response to urgent patient safety questions.
+  * Identified and resolved data quality issues cross-functionally with product teams and data engineers to improve data reliability of LFPSE, a beta service used to record patient safety incidents in England.
+  * Delivered national statistical publications used in NHS policy, public reporting, and patient safety transparency initiatives. Key publications included the [*Patient Safety Event Data Quarterly Publication*](https://www.england.nhs.uk/statistics/statistical-work-areas/patient-safety-data/2025-26/q4/) and the [*NRLS to LFPSE Transition Report*](https://www.england.nhs.uk/statistics/statistical-work-areas/patient-safety-data/2024-25/nrls-to-lfpse-transition-report/). 
 </details>
 <p>
 <details markdown="1">
-<summary><b>Analytical Officer - Cancer Programme,</b> NHS England, London (June 2022 - December 2022)</summary> 
-  * Generated rapid, high-profile analysis and reporting for programme directors and deputies which supported data-driven decision making. 
-  * Produced and reviewed internal publications, ensuring accuracy and consistency for wider use by NHS organisations. 
-  * Standardised KPI reports in R which reduced manual workload and enhanced productivity. 
+<summary><b>Analytical Officer,</b> <i>Cancer Programme</i>, NHS England, London (June 2022 - December 2022)</summary> 
+  * Produced rapid, high-impact analysis for senior stakeholders, enabling data-driven decision-making in a high priority national programme.
+  * Reduced manual workload and enhanced productivity by building and standardising KPI reports, reducing turnaround times by 30%.
+  * Reviewed internal publications, ensuring accuracy and consistency for wider use by NHS organisations.
 </details>
 <p>
 <details markdown="1">
-<summary><b>Data Analyst - Advanced Analytics,</b> East Suffolk and North Essex NHS Foundation Trust, Colchester (October 2021 – June 2022)</summary> 
-  * Analysed, modelled, and interpreted patient-level datasets, resulting in actionable insights that informed patient care and operational planning. 
-  * Designed and streamlined on-demand business intelligence reports which aligned with organisational priorities. 
-  * Translated complex statistical findings to non-technical stakeholders, providing clear and accurate interpretation for decision-making. 
-  * Promoted adoption of advanced analytics across the organisation which encouraged evidence-based management of health services. 
+<summary><b>Data Analyst,</b> <i>Advanced Analytics Team</i>, East Suffolk and North Essex NHS Foundation Trust, Colchester (October 2021 – June 2022)</summary> 
+  * Modelled and analysed patient-level healthcare data to generate actionable insights supporting clinical and operational decision-making.
+  * Designed and improved business intelligence reporting aligned with organisational priorities.
+  * Translated complex statistical findings to non-technical stakeholders, providing clear and accurate interpretation for decision-making.
+  * Promoted adoption of advanced analytics across the organisation which encouraged evidence-based management of health services.
 </details>
 <p>
 <details markdown="1">
-<summary><b>Technician Data Assistant (Summer Placement),</b> National Technician Development Centre (NTDC), Sheffield (July 2021 – August 2021)</summary> 
- * Standardised survey data from 10 universities, creating a unified dataset for strategic analysis. 
- * Identified sector-wide and population-specific trends via thematic analysis which produced targeted insights for different participant groups. 
- * Assessed historical data on course attendance and popularity which generated actionable insights for training planning. 
- * Evaluated the relevance and impact of existing training programmes based on emerging trends, identifying gaps and areas for improvement. 
- * Synthesised findings into clear, actionable reports, collaborating with project leads to ensure relevance and accessibility to stakeholders. 
+<summary><b>Technician Data Assistant,</b> <i>Summer Placement</i>, National Technician Development Centre (NTDC), Sheffield (July 2021 – August 2021)</summary> 
+  * Produced targeted insights for different participant groups by identifying sector-wide and population-specific trends via thematic analysis of survey data.
+  * Assessed historical data on course attendance which generated actionable insights for training planning.
+  * Evaluated the relevance and impact of existing training programmes based on emerging trends, identifying gaps and areas for improvement.
+  * Synthesised findings into a clear, actionable report, ensuring relevance and accessibility to stakeholders.
 </details>
 <p>
 <details markdown="1">
-<summary><b>Research Assistant & Data Entry Clerk (Psychiatry),</b> University of Massachusetts Medical School, Worcester (USA) (July 2019 – June 2020)</summary> 
- * Conducted descriptive statistical analysis of clinical assessment data and created presentations which informed researchers, clinicians, and officials at the Department of Public Health of Massachusetts. 
- *  Recorded and managed clinical assessment data in SPSS, supporting evaluation activities, presentations, and academic publications. 
- * Collaborated with clinical teams and government agencies to verify patient eligibility which ensured programme compliance with government guidelines.
- * Monitored programme implementation data across multiple research projects, assuring reliability for analysis. 
- * Verified treatment compliance by assessing implementation, fidelity, improvement, and adaptation of patient services with clinical staff and researchers. 
- * Built and maintained a centralised EndNote library which streamlined literature citations across grant applications and research papers. 
+<summary><b>Research Assistant & Data Entry Clerk,</b> <i>Psychiatry</i>, University of Massachusetts Medical School, Worcester (USA) (July 2019 – June 2020)</summary> 
+* Conducted statistical analysis of clinical assessment data and created presentations which informed researchers, clinicians, and officials at the Department of Public Health of Massachusetts.
+* Managed clinical assessment data in SPSS, supporting evaluation activities, presentations, and academic publications.
+* Ensured programmes’ compliance with government guidelines by verifying patient eligibility with clinical teams and government agencies.
+* Verified treatment compliance by assessing implementation, fidelity, improvement, and adaptation of patient services with clinical staff and researchers.
 </details> 
 <p>
 </p>
@@ -71,9 +69,11 @@ Professional experience
 Skills
 ======
 
-**Technical suite:** `Python` `R` `quarto` `GitHub` `SQL` `Azure DevOps` `Microsoft Suite`
+**Technical suite:** `Python` `R` `SQL` `Markdown` `GitHub` `Azure DevOps` `APIs` `Tableau`
 
-**Analytical methods:** `Statistical analysis` `modelling` `data wrangling` `interactive data visualisation` `API querying` `reproducible analytical pipelines`
+**Analytics and modelling:** `Descriptive statistics` `statistical modelling` `hypothesis testing` `inferential methods` `XGBoost` `random forests` `NLP`
+
+**Visualisation and reporting:** `Plotly` `ggplot2` `Matplotlib` `Quarto` `interactive report development`
 
 **Languages:** `English (C2)` `Spanish (C2)` `French (B1)`
 
@@ -81,9 +81,9 @@ Training
 ======
 **The Health Service Modelling Associates (HSMA) Programme** , *NIHR Applied Research Collaboration of the South West Peninsula*, April 2024 – February 2025
 
-[University-level training programme](https://hsma.co.uk/) focused on Python for data science and operational research. Funded by The National Institute for Health and Care Research and accredited by the Association of Professional Healthcare Analysts (AphA).
+[Intensive python training programme](https://hsma.co.uk/) in applied data science and operational research. Delivered practical projects using machine learning (XGBoost, random forests), NLP, and simulation (DES) to solve real-world healthcare problems. Funded by The National Institute for Health and Care Research and accredited by the Association of Professional Healthcare Analysts (AphA).
 
-**Training areas:** `Machine learning (ML)` `natural language processing (NLP)` `discrete event simulation (DES)` `geo-spatial analysis` `neural networks` `synthetic data generation`
+**Specialty areas:** `Machine learning (ML)` `XGBoost` `random forests` `natural language processing (NLP)` `discrete event simulation (DES)` `geo-spatial analysis` `neural networks` `synthetic data generation`
 
 Publications
 ======
