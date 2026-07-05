@@ -677,7 +677,7 @@ data_encoded['grade_subgrade'] = data_encoded[
 
 ### Correlation matrix
 
-Now that the `grade_dubgrade` variable reflects numeric, ordinal scale, we can better understand what it represents by making a correlation matrix with all the other numeric variables. The more instense the colour in the matrix, the stronger the correlation is to 1 or -1. We can see that the subgrades correlate strongly with credit scores: the lower the credit score, the higher the subgrade. Additionally, it seems that high the subgrade values are midly correlated with higher interest rates.
+Now that the `grade_subgrade` variable reflects a numeric, ordinal scale, we can better understand what it represents by making a correlation matrix with all the other numeric variables. The more instense the colour in the matrix, the stronger the correlation is to 1 or -1. We can see that the subgrades correlate strongly with credit scores: the lower the credit score, the higher the subgrade. Additionally, it seems that high the subgrade values are midly correlated with higher interest rates.
 
 
 ```python
@@ -698,7 +698,7 @@ plt.show()
 
 
 ### One-hot encoding
-The remaining categorical features can be processed via one-hot encoding. This means that we sill split the original column into as many separate columns as there are unique values. For example, the recorded values for the `gender` variable are: female, male, and other. Hence, we will have 3 new columns: `gender_female`, `gender_male`, and `gender_other`. Each of these new variables will be coded TRUE or FALSE according to the original value in `gender`, so every row can only have one TRUE value across the 3 new derived variables. We repeat this process for every categorical variable. You can use the `get_dummies()` method inside a function to one-hot encode all eligible features in one go, as shown below.
+The remaining categorical features can be processed via one-hot encoding. This means that we will split the original column into as many separate columns as there are unique values. For example, the recorded values for the `gender` variable are: female, male, and other. Hence, we will have 3 new columns: `gender_female`, `gender_male`, and `gender_other`. Each of these new variables will be coded TRUE or FALSE according to the original value in `gender`, so every row can only have one TRUE value across the 3 new derived variables. We repeat this process for every categorical variable. You can use the `get_dummies()` method inside a function to one-hot encode all eligible features in one go, as shown below.
 
 
 ```python
